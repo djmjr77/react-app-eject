@@ -24,9 +24,12 @@
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.2.0",
+    "datatables.net-bs4": "^2.2.2",
+    "datatables.net-dt": "^2.2.2",
+    "datatables.net-react": "^1.0.0",
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
-    "eslint": "^8.3.0",
+    "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
@@ -70,12 +73,13 @@
     "build-dev": "node scripts/build-dev.js",
     "test": "node scripts/test.js"
   },
+  "homepage": "/ext/",
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
+},
   "browserslist": {
     "production": [
       ">0.2%",

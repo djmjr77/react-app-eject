@@ -4,6 +4,7 @@ const ETAButton = () => {
   const handleClick = () => {
     // implementation details
     alert("CLICKED")
+    socket.emit('myEvt', "TEST REACT");
   };
 
   return (
